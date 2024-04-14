@@ -1,0 +1,15 @@
+.headCourse {
+    @apply px-4 py-2 border border-[#23333e] text-[#42bdec] table-cell
+}
+.bodyCourse {
+    @apply px-4 py-2 border border-[#23333e] table-cell
+} 
+.bordersCourse {
+    @apply border-b border-[#23333e]
+}
+.editCourse {
+    @apply text-[#42bdec] hover:text-[#399cc4] text-2xl font-bold py-1 rounded mr-2
+}
+.deleteCourse {
+    @apply text-red-500 hover:text-red-700 text-2xl font-bold py-1 rounded
+}

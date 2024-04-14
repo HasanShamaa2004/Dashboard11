@@ -1,0 +1,9 @@
+.labelOurProject {
+    @apply block text-[#2d404e] font-semibold mb-2
+}
+.inputOurProject {
+    @apply shadow appearance-none border rounded w-full py-2 px-3 text-[#2d404e] leading-tight focus:outline-none
+}
+.submitOurProject {
+    @apply bg-[#42bdec] hover:bg-white hover:text-[#42bdec] border border-[#42bdec] text-white font-bold py-2 px-4 rounded focus:outline-none
+}

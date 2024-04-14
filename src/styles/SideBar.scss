@@ -1,0 +1,12 @@
+.divSideBar {
+    @apply hover:bg-[#2d404e] hover:text-[#42bdec] text-[#2d404e] active:text-[#42bdec] transition duration-500 active:bg-[#2d404e] hover:rounded w-full py-3 px-1
+}
+.parent {
+    @apply p-5  sm:w-[10%] md:w-[10%] lg:w-1/5 h-screen border-r
+}
+.son {
+    @apply flex flex-col items-start justify-center
+}
+.NavLinkSide {
+    @apply flex items-center gap-5
+}

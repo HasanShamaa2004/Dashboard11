@@ -1,0 +1,15 @@
+.headOurFamily {
+    @apply px-4 py-2 border border-[#23333e] text-[#42bdec] table-cell
+}
+.bodyOurFamily {
+    @apply px-4 py-2 border border-[#23333e] table-cell
+} 
+.bordersOurFamily {
+    @apply border-b border-[#23333e]
+}
+.editOurFamily {
+    @apply text-[#42bdec] hover:text-[#399cc4] text-2xl font-bold py-1 rounded mr-2
+}
+.deleteOurFamily {
+    @apply text-red-500 hover:text-red-700 text-2xl font-bold py-1 rounded
+}
